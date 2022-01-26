@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1 align="center">Registration page</h1>
+    <form action="login" method="POST">
+        {% csrf_token %}
+        <pre>
+		USER NAME<input type="text" name="uname" />
+		PASSWORD<input type="password" name="password" />
+        <input type="submit" value="Login">
+	</pre>
+    </form>
+</body>
+{%for msg in messages%} {{msg}} {%endfor%}
+
+</html>

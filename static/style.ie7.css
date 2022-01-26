@@ -1,0 +1,184 @@
+/* begin Page */
+
+img
+{
+  filter: expression(artFixPNG(this));
+}/* end Page */
+
+/* begin Menu */
+.art-nav-r
+{
+  clip: rect(auto auto auto 1920px);
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+.art-hmenu a .r
+{
+  clip: rect(auto auto auto 404px);
+}
+/* end MenuItem */
+
+/* begin Box, Sheet */
+
+.art-sheet-body
+{
+  zoom: 1;
+}
+/* end Box, Sheet */
+
+/* begin Layout */
+.art-content-layout, .art-content-layout-row {display: block;}
+.art-content-layout, .art-content-layout-row {zoom: 1;}
+/* end Layout */
+
+/* begin Button */
+.art-button-wrapper .art-button-r
+{
+  clip: rect(auto auto auto 406px);
+}
+/* end Button */
+
+/* begin Box, Block */
+
+.art-block-body
+{
+  zoom: 1;
+}
+/* end Box, Block */
+
+/* begin BlockHeader */
+.art-blockheader .r
+{
+  clip: rect(auto auto auto 866px);
+}
+/* end BlockHeader */
+
+/* begin Box, BlockContent */
+.art-blockcontent-tl
+{
+  clip: rect(auto 7px 7px auto);
+}
+
+.art-blockcontent-tr
+{
+  clip: rect(auto auto 7px 7px);
+}
+
+.art-blockcontent-bl
+{
+  clip: rect(7px 7px auto auto);
+}
+
+.art-blockcontent-br
+{
+  clip: rect(7px auto auto 7px);
+}
+
+.art-blockcontent-tc
+{
+  clip: rect(auto auto 7px auto);
+}
+
+.art-blockcontent-bc
+{
+  clip: rect(7px auto auto auto);
+}
+
+.art-blockcontent-cr
+{
+  clip: rect(auto auto auto 7px);
+}
+
+.art-blockcontent-cl
+{
+  clip: rect(auto 7px auto auto);
+}
+
+.art-blockcontent-body
+{
+  zoom: 1;
+}
+/* end Box, BlockContent */
+
+/* begin Box, Post */
+.art-post-tl
+{
+  clip: rect(auto 15px 15px auto);
+}
+
+.art-post-tr
+{
+  clip: rect(auto auto 15px 15px);
+}
+
+.art-post-bl
+{
+  clip: rect(15px 15px auto auto);
+}
+
+.art-post-br
+{
+  clip: rect(15px auto auto 15px);
+}
+
+.art-post-tc
+{
+  clip: rect(auto auto 15px auto);
+}
+
+.art-post-bc
+{
+  clip: rect(15px auto auto auto);
+}
+
+.art-post-cr
+{
+  clip: rect(auto auto auto 15px);
+}
+
+.art-post-cl
+{
+  clip: rect(auto 15px auto auto);
+}
+
+.art-post-body
+{
+  zoom: 1;
+}
+/* end Box, Post */
+
+/* begin PostContent */
+.art-postcontent
+{
+  height: 1%;
+}
+/* end PostContent */
+
+/* begin Footer */
+.art-footer-body
+{
+    padding-right: 0;
+  zoom:1;
+}
+
+.art-footer{
+  zoom:1;
+}
+
+/* end Footer */
+
+/* begin LayoutCell, content */
+.art-sidebar1 {width: auto;}
+.art-content-layout .art-layout-cell, .art-content-layout .art-layout-cell .art-content-layout .art-layout-cell
+{
+  display: block;
+  position:relative;
+  float: left;
+  clear: right;
+}
+.art-content-layout .art-layout-cell, .art-content-layout .art-layout-cell .art-content-layout .art-layout-cell {  zoom:1; }
+.art-layout-cell .art-layout-cell{ float: none; clear: both;}
+/* end LayoutCell, content */
+

@@ -1,0 +1,51 @@
+{%extends 'base.html'%} {% block content%}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <br><br>
+    <form action="register" method="POST">
+        {% csrf_token %}
+        <table align="center" border="1px">
+            <tr>
+                <td>USERNAME</td>
+                <td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+                <td>FIRSTNAME</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+                <td>LASTNAME</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td>MOBILE</td>
+                <td><input type="number" name="mobile"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="REGISTER"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
+{%endblock%}

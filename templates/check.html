@@ -1,0 +1,9 @@
+{%if user.is_authenticated %}
+<script>
+    window.location.href = "/";
+</script>
+{%else%}
+<script>
+    window.location.href = "/login";
+</script>
+{%endif%}
